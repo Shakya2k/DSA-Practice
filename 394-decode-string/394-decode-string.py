@@ -1,17 +1,5 @@
-"""class stack():
-    def __init__(self):
-        self.val = []
-    def push_stack(self,v):
-        self.val.append(v)
-    def pop_stack(self):
-        return self.val.pop()"""
-        
-class Solution(object):
-    def decodeString(self, s):
-        """
-        :type s: str
-        :rtype: str
-        """
+class Solution:
+    def decodeString(self, s: str) -> str:
         stack =[]
 
 
@@ -37,7 +25,3 @@ class Solution(object):
 
 
         return "".join(stack)
-                
-                
-                
-        
